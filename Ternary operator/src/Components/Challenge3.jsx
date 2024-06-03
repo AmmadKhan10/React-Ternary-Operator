@@ -1,4 +1,5 @@
 function Challenge3( {name1} ){
+
     let part, caffeine, age;
   if(name1 === 'tea'){
     part = 'leaf';
@@ -9,6 +10,7 @@ function Challenge3( {name1} ){
     caffeine= '80-185 mg/cup';
     age = '1,000+ years';
     }
+    
     return(
         <div>
         <h1>{name1}</h1>
